@@ -1,29 +1,23 @@
-Inventory app
-==================================
+# Inventory app - Materi 9 (Persistance Layer)
 
-Solution code for Android Basics with Compose.
+## Mata Kuliah : Praktik Pemrograman Mobile 2
 
-Introduction
-------------
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+## Deskripsi
 
-Pre-requisites
---------------
+Dalam codelab ini, Anda bekerja dengan kode awal aplikasi Inventory dan menambahkan layer database ke dalamnya menggunakan library Room. Versi akhir aplikasi menampilkan daftar item dari database. Pengguna memiliki opsi untuk menambahkan item baru, memperbarui item yang sudah ada, dan menghapus item dari database Inventory. 
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
+## Link Latihan Codelab
 
+**Persist data with Room** <br>
+https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room
 
-Getting Started
----------------
+**Read and update data with Room** <br>
+https://developer.android.com/codelabs/basic-android-kotlin-compose-update-data-room
 
-1. Download and run the app.
+<div style="display: flex; gap: 16px">
+    <img src="https://developer.android.com/static/codelabs/basic-android-kotlin-compose-persisting-data-room/img/dff66d262bbd788e_856.png" width="250px" />
+    <img src="https://developer.android.com/static/codelabs/basic-android-kotlin-compose-update-data-room/img/3aac7e2c9e7a04b6_856.png" width="250px" />
+</div>
